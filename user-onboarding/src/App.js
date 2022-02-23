@@ -16,12 +16,21 @@ function App() {
 
   const [formValues, setFormValues] = useState(initialFormValues)
 
-
+  const inputChange = (name, value) => {
+    setFormValues({
+      ...formValues, [name]: value
+    })
+  }
 
 
   return (
     <div className="App">
-      <Forms /> 
+      <Forms 
+      values = {formValues}
+      change = {inputChange}
+
+
+      /> 
     </div>
   );
 }
