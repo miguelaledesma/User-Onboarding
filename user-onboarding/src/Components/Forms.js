@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Forms = (props) => {
-const { change, submit } = props 
+const { change, submit, errors } = props 
 
 const {username, email, password, tos } = props.values 
 
@@ -22,6 +22,16 @@ const onSubmit = evt => {
 return (
     <div> 
     <h1> My Form </h1>
+    <div className='errors'>
+          
+          <div>{errors.username}</div>
+          <div>{errors.email}</div>
+          <div>{errors.password}</div>
+          <div>{errors.tos}</div>
+        </div>
+
+
+    
     <form onSubmit = {onSubmit}> 
         <label> Name: 
             <input 
