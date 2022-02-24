@@ -1,6 +1,6 @@
 //writing my tests here
 
-describe("Testing form inputs ", ()=>{  
+describe("User Onboarding ", ()=>{  
 
    
     beforeEach(() =>{
@@ -9,7 +9,8 @@ describe("Testing form inputs ", ()=>{
     })
     
     it('sanity checks', () => {
-        
+        //assertion goes here
+        expect(5).to.equal(5)
     })
 
 
