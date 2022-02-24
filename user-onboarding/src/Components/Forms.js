@@ -75,7 +75,7 @@ return (
 
     </label>
 
-    <input className='button' type = 'submit' value = 'Create a new User' /> 
+    <input className='button' type = 'submit' value = 'Create Account' /> 
 
     </form>
     </div>
