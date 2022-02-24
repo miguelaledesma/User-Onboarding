@@ -21,7 +21,7 @@ const onSubmit = evt => {
 
 return (
     <div> 
-    <h1> My Form </h1>
+    <h1> Create Account</h1>
     <div className='errors'>
           
           <div>{errors.username}</div>
@@ -33,7 +33,7 @@ return (
 
     
     <form onSubmit = {onSubmit}> 
-        <label> Name: 
+        <label className = 'labelOne'> Name: 
             <input 
             name = 'username'
             type = 'text'
@@ -42,7 +42,7 @@ return (
             
             /> 
         </label>
-        <label> Email: 
+        <label className = 'labelTwo'> Email: 
             <input
             name ='email'
             type = 'text'
@@ -51,7 +51,7 @@ return (
             
             /> 
         </label>
-    <label> Password: 
+    <label className = 'labelThree'> Password: 
 
         <input 
         
@@ -64,7 +64,7 @@ return (
 
     </label>
 
-    <label> Terms of Service
+    <label className = 'terms'> Terms of Service
         <input 
         type = 'checkbox'
         name = 'TOS'
@@ -75,7 +75,7 @@ return (
 
     </label>
 
-    <input type = 'submit' value = 'Create a new User' /> 
+    <input className='button' type = 'submit' value = 'Create a new User' /> 
 
     </form>
     </div>

@@ -1,13 +1,86 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  background: radial-gradient(circle, rgba(238,174,202,1) 58%, rgba(148,187,233,1) 100%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bolder;
+}
+
+form{
+  background-color: #eeaeca;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 300px;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  border-radius: 7px;
+  border:0;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App{
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 10px;
+  box-shadow: 0px 1px 6px -2px rgb(128, 127, 127);
+  padding: 32px;
+  background-color: rgba(233, 234, 245, 0.65);
+  margin-bottom: 24px;
+  
+}
+
+.labelOne{
+  padding: 10px;
+
+}
+.labelTwo{
+  padding: 10px;
+}
+.labelThree{
+  padding: 10px;
+}
+.terms{
+  padding: 10px;
+  align-items:baseline;
+}
+
+.button{
+  background-color: #94bbe9;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 16px;
+  height: 50px;
+  margin-top: 38px;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.button:active {
+  background-color: #06b;
 }
