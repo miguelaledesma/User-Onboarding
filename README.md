@@ -1,3 +1,13 @@
+### PROJECT COMPLETED
+![Recording 2022-02-26 at 17 18 40](https://user-images.githubusercontent.com/90358616/155864284-9f458e57-67db-45a6-8596-1ac724012184.gif)
+
+
+
+
+
+
+
+
 # Module Project: Advanced Form Management - User Onboarding
 
 ## Project Description
@@ -50,7 +60,5 @@ When you get your data back, you will want to do something with it, right? Let's
 - [x ] Every time you make a `POST` request, and get that new user data back, update your `users` state with the new user added to the array
 - [ x] Render `users` in your app. You can use the html pre tag and JSON.stringify() method to display your post request.
 
-###PROJECT COMPLETED
-![Recording 2022-02-26 at 17 18 40](https://user-images.githubusercontent.com/90358616/155864284-9f458e57-67db-45a6-8596-1ac724012184.gif)
 
 
